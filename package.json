@@ -6,8 +6,13 @@
 "scripts": {
   "dev": "npx vite",
   "build": "npx vite build",
-  "preview": "npx vite preview"
+  "preview": "npx vite preview",
 },
+
+"engines": {
+  "node": ">=20.19.0"
+},
+
 "dependencies": {
   "@emailjs/browser": "^4.4.1",
   "@vitejs/plugin-react": "^6.0.1",
