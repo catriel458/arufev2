@@ -9,9 +9,9 @@ import emailjs from '@emailjs/browser'
 //     {{from_name}}, {{from_email}}, {{telefono}}, {{message}}
 //  4. Reemplazá los valores de abajo con los tuyos:
 // ─────────────────────────────────────────────────────────
-const EMAILJS_SERVICE_ID  = 'TU_SERVICE_ID'   // ej: 'service_abc123'
-const EMAILJS_TEMPLATE_ID = 'TU_TEMPLATE_ID'  // ej: 'template_xyz456'
-const EMAILJS_PUBLIC_KEY  = 'TU_PUBLIC_KEY'   // ej: 'AbCdEfGhIjKlMnOp'
+const EMAILJS_SERVICE_ID  = 'service_qd4sncr'   // ej: 'service_abc123'
+const EMAILJS_TEMPLATE_ID = 'template_5lst3bq'  // ej: 'template_xyz456'
+const EMAILJS_PUBLIC_KEY  = 'Q7mMMeV9kAn9ZiYf5'   // ej: 'AbCdEfGhIjKlMnOp'
 
 function useInView(threshold = 0.2) {
   const ref = useRef(null)
